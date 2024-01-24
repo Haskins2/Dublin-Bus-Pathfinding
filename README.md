@@ -1,7 +1,8 @@
 # Dublin Public Transport System Modeling
+- - - -
 ## Task 3 Overview
 This program aims to model the public transport system in Dublin city using bus stop/route data provided by Dublin Bus. Google Maps utilizes this information to suggest the optimal sequence of buses/trains for reaching a destination quickly. The modeling is based on a graph structure, where bus stops (nodes) are connected by bus routes (edges). Each edge has a weight indicating the travel time for that route.
-
+- - - - 
 ## Implementation Details
 The implementation involves loading data from two CSV files:
 
@@ -14,7 +15,7 @@ Each route represents an edge in the graph with a weight indicating the distance
 Dijkstra's algorithm is then employed to find the optimal route from a specified source to a given destination.
 
 ..both of which are publically available on https://data.smartdublin.ie/.
-
+- - - -
 ## Functions Implemented
 
 1. #### load_edges:
@@ -28,3 +29,7 @@ Dijkstra's algorithm is then employed to find the optimal route from a specified
 
 
 More detailed information available in the brief.pdf
+- - - -
+## Output:
+
+![image](https://github.com/Haskins2/Dublin-Bus-Pathfinding/assets/126469860/0a322db6-a57a-4f9c-85cb-a842044141b0)
