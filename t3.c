@@ -139,9 +139,6 @@ Graph* createGraph(Node* nodeToInsert){
     return newG;
 }
 
-
-
-
 void insertEdge(int vertex1, int vertex2, int weight){
     Node* v1 = g->nodes[vertex1];
     Node* v2 = g->nodes[vertex2];
