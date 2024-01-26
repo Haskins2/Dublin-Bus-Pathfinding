@@ -10,7 +10,6 @@
 #define maxNeighbours 20
 #define maxNumVertices 7700
 
-
 Graph* g = NULL;
 
 Queue* createQueue(int capacity) {
